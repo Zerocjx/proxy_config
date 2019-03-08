@@ -126,8 +126,10 @@ pm2 start polipo_start.sh
 
 5.测试Proxy是否成功
 ```
+curl ip.gs
 export http_proxy=http://127.0.0.1:8123
-ping www.google.com
+export https_proxy=http://127.0.0.1:8123
+curl ip.gs
 ```
 
 6.设置PM2开机自启这两个脚本
