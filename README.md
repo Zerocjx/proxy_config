@@ -13,6 +13,7 @@ git clone https://github.com/ssrbackup/shadowsocksr
   
 2.修改配置文件`config.json`
 ```
+cd shadowsocksr
 vim config.json
 ```
 主要修改：
